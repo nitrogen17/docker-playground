@@ -1,4 +1,4 @@
-Docker Playgroud
+## Docker Playgroud
 
 ```
 BUILD/UPDATE Docker Image
@@ -66,5 +66,14 @@ nano index.html
 </body>
 </html>
 =====================================
+
+Step 2:
+# Build an image using the Dockerfile at current location
+# Example: docker build -t [name] .
+$ docker build -t clever .
+
+Note: Docker must already installed in PC
+
+
 
 ```
