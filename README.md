@@ -74,6 +74,28 @@ $ docker build -t clever .
 
 Note: Docker must already installed in PC
 
+Step 3:
+$ docker run -d -p 80:80 clever
 
+DONE!
+
+
+How do I SSH into a running container
+There is a docker exec command that can be used to connect to a container that is already running.
+* Use docker ps to get the name of the existing container
+* Use the command docker exec -it <container name> /bin/bash to get a bash shell in the container
+* Generically, use docker exec -it <container name> <command> to execute whatever command you specify in the container.
+http://phase2.github.io/devtools/common-tasks/ssh-into-a-container/
+
+
+Running Nano in Docker Image Container
+
+docker exec -it id_container bash
+apt-get update
+apt-get install nano
+export TERM=xterm
+
+
+https://stackoverflow.com/questions/27826241/running-nano-in-docker-container/27827924
 
 ```
