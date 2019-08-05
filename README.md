@@ -98,4 +98,14 @@ export TERM=xterm
 
 https://stackoverflow.com/questions/27826241/running-nano-in-docker-container/27827924
 
+
+================ ADD Docker as sudoer ================ 
+To create the docker group and add your user:
+1. Create the docker group. $ sudo groupadd docker
+2. Add your user to the docker group. $ sudo usermod -aG docker $USER
+3. Log out and log back in so that your group membership is re-evaluated. 
+================================================== 
+
+
+
 ```
