@@ -109,3 +109,8 @@ To create the docker group and add your user:
 
 
 ```
+
+References:
+
+https://medium.com/faun/how-to-build-a-docker-container-from-scratch-docker-basics-a-must-know-395cba82897b
+
