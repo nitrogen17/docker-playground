@@ -106,7 +106,23 @@ To create the docker group and add your user:
 3. Log out and log back in so that your group membership is re-evaluated. 
 ================================================== 
 
-
+docker attach - Attaches your local input/output/error stream to a running container.
+docker commit  - Creates a new image from the current changed state of the container.
+docker exec- Runs a command in a container that is active or running.
+docker history- Displays the history of an image.
+docker info- Shows system-wide information.
+docker inspect- Finds system-level information about docker containers and images.
+docker login- Logins to local registry or Docker Hub.
+docker pull- Pulls an image or a repository from your local registry or Docker Hub.
+docker ps- Lists various properties of containers.
+docker restart- Stops and starts a container.
+docker rm- Remove containers.
+docker rmi- Remove images
+docker run- Runs a command in an isolated container.
+docker search- Searches the Docker Hub for images.
+docker start- Starts already stopped containers.
+docker stop- Stops running containers.
+docker version- Provides docker version information.
 
 ```
 
