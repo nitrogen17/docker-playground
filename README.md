@@ -124,6 +124,16 @@ docker start- Starts already stopped containers.
 docker stop- Stops running containers.
 docker version- Provides docker version information.
 
+
+
+==========================================
+Use minimal base image | scratch or alpine
+==========================================
+FROM scratch
+FROM alpine
+==========================================
+
+
 ```
 
 References:
